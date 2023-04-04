@@ -1,0 +1,16 @@
+	STAR --runMode genomeGenerate --runThreadN 10 --genomeDir GRCm38_STARindex --genomeFastaFiles referenceGenome/mm10.fa --sjdbGTFfile referenceGenome/GRCm38.gtf --sjdbOverhang 99
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 25 21:51:43 ..... started STAR run
+Feb 25 21:51:43 ... starting to generate Genome files
+Feb 25 21:52:34 ..... processing annotations GTF
+Feb 25 21:53:00 ... starting to sort Suffix Array. This may take a long time...
+Feb 25 21:53:34 ... sorting Suffix Array chunks and saving them to disk...
+Feb 25 22:13:51 ... loading chunks from disk, packing SA...
+Feb 25 22:15:13 ... finished generating suffix array
+Feb 25 22:15:13 ... generating Suffix Array index
+Feb 25 22:18:59 ... completed Suffix Array index
+Feb 25 22:19:00 ..... inserting junctions into the genome indices
+Feb 25 22:22:37 ... writing Genome to disk ...
+Feb 25 22:22:43 ... writing Suffix Array to disk ...
+Feb 25 22:23:47 ... writing SAindex to disk
+Feb 25 22:23:53 ..... finished successfully

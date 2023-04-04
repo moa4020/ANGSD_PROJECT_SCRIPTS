@@ -1,0 +1,7 @@
+
+EXITING because of fatal input ERROR: could not open readFilesIn=Read1
+
+Feb 26 13:43:53 ...... FATAL ERROR, exiting
+/var/spool/slurmd/job10539096/slurm_script: line 19: --runThreadN: command not found
+/var/spool/slurmd/job10539096/slurm_script: line 21: --readFilesIn: command not found
+/var/spool/slurmd/job10539096/slurm_script: line 22: --readFilesCommand: command not found

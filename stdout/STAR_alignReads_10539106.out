@@ -1,0 +1,8 @@
+	STAR --runMode alignReads --runThreadN 10 --genomeDir /athena/angsd/scratch/moa4020/project/referenceGenome/GRCm38_STARindex/ --readFilesIn /athena/angsd/scratch/moa4020/project/referenceGenome/GEO_Dataset/fastq/wt_1_1.fastq.gz --readFilesCommand zcat --outFileNamePrefix /athena/angsd/scratch/moa4020/project/referenceGenome/GEO_Dataset/alignments/wt_1_1. --outSAMtype BAM SortedByCoordinate --outSAMunmapped Within --outSAMattributes Standard
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 26 15:14:21 ..... started STAR run
+Feb 26 15:14:21 ..... loading genome
+Feb 26 15:14:51 ..... started mapping
+Feb 26 15:18:51 ..... finished mapping
+Feb 26 15:18:54 ..... started sorting BAM
+Feb 26 15:19:34 ..... finished successfully
