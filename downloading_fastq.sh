@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l
 
 #SBATCH --mail-user=moa4020@med.cornell.edu
 #SBATCH --mail-type=ALL
@@ -26,3 +26,4 @@ while read line; do
 done < links.txt
 
 rm links.txt
+

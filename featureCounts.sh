@@ -18,3 +18,4 @@ bamDir=/athena/angsd/scratch/moa4020/project/GEO_Dataset/alignments
 outDir=/athena/angsd/scratch/moa4020/project/GEO_Dataset/alignments/featureCounts
 
 featureCounts -p -t exon -T 10 -f -O -a $AnnotationFile -o counts.txt ${bamDir}/*.it2.Aligned.sortedByCoord.out.bam
+

@@ -17,3 +17,4 @@ mamba activate trim-galore
 echo "Started running trimming"
 
 trim_galore --illumina /athena/angsd/scratch/moa4020/project/GEO_Dataset/fastq/wt_1_1.fastq.gz --output_dir /athena/angsd/scratch/moa4020/project/GEO_Dataset/fastq/ --basename wt_1_1_trimmed
+

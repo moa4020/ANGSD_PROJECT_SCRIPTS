@@ -18,3 +18,5 @@ STAR --runMode genomeGenerate \
      --genomeFastaFiles /athena/angsd/scratch/moa4020/project/referenceGenome/mm10/mm10.fa \
      --sjdbGTFfile /athena/angsd/scratch/moa4020/project/referenceGenome/mm10/GRCm38.gtf \
      --sjdbOverhang 149
+
+

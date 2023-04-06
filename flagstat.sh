@@ -16,3 +16,4 @@ for file in /athena/angsd/scratch/moa4020/project/GEO_Dataset/alignments/*.out.b
 	echo "$filename done"
 done
 
+

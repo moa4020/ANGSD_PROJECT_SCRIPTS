@@ -1,4 +1,5 @@
 #!/bin/bash -l
+
 #SBATCH --mail-user=moa4020@med.cornell.edu
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=STAR_alignReads
@@ -46,3 +47,4 @@ do
              --outSAMattributes All
 
 done < $sample_table
+

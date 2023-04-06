@@ -48,3 +48,4 @@ do
              --outSAMattributes All
 
 done < $sample_table
+
