@@ -1,5 +1,7 @@
-#!/bin/bash -l
-
+#!/bin/bash
+#SBATCH --job-name=downloading_fastq
+#SBATCH --output=/home/moa4020/angsd/project/scripts/stdout/downloading_fastq_%j.out
+#SBATCH --error=/home/moa4020/angsd/project/scripts/stderr/downloading_fastq_%j.err
 #SBATCH --mail-user=moa4020@med.cornell.edu
 #SBATCH --mail-type=ALL
 #SBATCH --mem=32G
@@ -17,7 +19,7 @@ while read line; do
   wget "$url" -O "${sample_name}_1.fastq.gz"
 done < links.txt
 
-while read line; do 
+while read line; do
   links=$(echo "$line" | cut -f 2)
   url=$(echo "$links" | cut -d';' -f2)
   sample_name=$(echo "$line" | cut -f 3)
@@ -26,4 +28,3 @@ while read line; do
 done < links.txt
 
 rm links.txt
-
